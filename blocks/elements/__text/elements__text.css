@@ -1,0 +1,8 @@
+.elements__text {
+    width: calc(100% - 2* 22px);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
