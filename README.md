@@ -8,4 +8,4 @@
 [Ссылка на макет в Figma](https://www.figma.com/file/StZjf8HnoeLdiXS7dYrLAh/JavaScript.-Sprint-4)
 
 
- https://lamilama.github.io/mesto/
+ссылка на проект на github.io: https://lamilama.github.io/mesto/

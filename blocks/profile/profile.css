@@ -1,0 +1,16 @@
+.profile {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content) 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 36.25px;  
+}
+
+@media screen and (max-width: 767px) {
+   .profile {
+    width: calc(100% - 19px * 2);
+    margin: 38.25px auto 0;
+    grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content) 1fr;
+    grid-template-columns: 1fr;
+   }
+}

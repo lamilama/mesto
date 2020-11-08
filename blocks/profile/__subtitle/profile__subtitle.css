@@ -1,15 +1,18 @@
-.footer__copyright {
+.profile__subtitle {
     font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
-    opacity: 0.5;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 @media screen and (max-width: 767px) {
-    .footer__copyright {
+    .profile__subtitle {
+        justify-self: center;
         font-size: 14px;
-        line-height: 17px;
+        line-height: 17px;              
+        text-align: center;
     }
-}
+ }

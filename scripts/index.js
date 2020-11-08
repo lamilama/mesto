@@ -34,7 +34,4 @@ function submitForm (event) {
     subTitle.textContent = profession.value;
 }
 
-
-
-
 form.addEventListener('submit', submitForm);
