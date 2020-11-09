@@ -2,10 +2,10 @@
     width: 24px;
     height: 24px;
     background-color: #000000;
-    background: transparent url('../../images/edit-button.png') center no-repeat;
+    background: transparent url('../../images/edit_button.svg') center no-repeat;
     padding: 0;
-    align-self: center;
-    border: 2px solid white;
+    align-self: flex-end;
+    border: 1px solid white;
     outline: none;
 }
 
