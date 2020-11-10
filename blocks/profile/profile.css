@@ -3,7 +3,8 @@
     display: grid;
     grid-template-columns: minmax(min-content, max-content) minmax(min-content, max-content) 1fr;
     grid-template-rows: 1fr;
-    margin-top: 36.25px;  
+    margin-top: 36.25px;
+    margin-bottom: 48.25px;
 }
 
 @media screen and (max-width: 767px) {
@@ -12,5 +13,6 @@
     margin: 38.25px auto 0;
     grid-template-rows: minmax(min-content, max-content) minmax(min-content, max-content) 1fr;
     grid-template-columns: 1fr;
+    margin-bottom: 36px;
    }
 }

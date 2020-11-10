@@ -4,18 +4,20 @@
     justify-self: flex-end;
     align-self: center;
     border: 2px solid white;
+    border-radius: 2px;
     outline: none;
-    background: transparent url('../../../images/plus-button.png') center no-repeat;
+     transition-duration: .7s;
+    background: transparent url('../../../images/add_button.svg') center no-repeat;
 }
 
 @media screen and (max-width: 767px) {
     .profile__add-button {
          margin-top: 36px;
          width: 100%;
+        background-size: 16px 16px;
     }
  }
 
 .profile__add-button:hover {
-    opacity: .6;
-    transition-duration: .7s;
+    opacity: .6;   
 }

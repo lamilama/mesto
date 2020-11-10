@@ -9,7 +9,7 @@
 <body class="page">
     <div class="page__container">
         <header class="header">
-            <img class="header__logo" src="./images/Header-logo.png" alt="Mesto Russia">
+            <img class="header__logo" src="./images/header-logo.svg" alt="Места Россия">
         </header>
         <main class="main">
             <section class="profile">
@@ -17,11 +17,11 @@
                 <div class="profile__info">
                     <div class="profile__description">
                        <h1 class="profile__title">Жак-Ив Кусто</h1>
-                       <button class="edit-button"></button>
+                       <button class="edit-button" type="button"></button>
                   </div> 
-                  <h2 class="profile__subtitle">Исследователь океана</h2> 
+                  <p class="profile__subtitle">Исследователь океана</p> 
                 </div>               
-                <button class="profile__add-button"></button>                       
+                <button class="profile__add-button" type="button"></button>                       
             </section>
             <section class="elements">
                 <ul class="elements__list">
@@ -29,57 +29,57 @@
                         <img class="elements__image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск">
                         <div class="elements__text">
                             <h3 class="elements__title">Карачаевск</h3>
-                            <button class="elements__like-button"><img src="./images/like_button.png"></button>
+                            <button class="elements__like-button" type="button"><img src="./images/like_button.svg" alt="кнопка лайк"></button>
                         </div>                 
                     </li>
                     <li class="elements__item">
                         <img class="elements__image" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус">
                         <div class="elements__text">
                             <h3 class="elements__title">Гора Эльбрус</h3>
-                            <button class="elements__like-button"><img src="./images/like_button.png"></button>
+                            <button class="elements__like-button" type="button"><img src="./images/like_button.svg" alt="кнопка лайк"></button>
                         </div>       
                     </li>
                     <li class="elements__item">                        
                         <img class="elements__image" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Донбай">
                         <div class="elements__text">
                             <h3 class="elements__title">Донбай</h3>
-                            <button class="elements__like-button"><img src="./images/like_button.png"></button>
+                            <button class="elements__like-button" type="button"><img src="./images/like_button.svg" alt="кнопка лайк"></button>
                         </div>                           
                     </li>
                     <li class="elements__item">                        
                         <img class="elements__image" src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус">
                         <div class="elements__text">
                             <h3 class="elements__title">Гора Эльбрус</h3>
-                            <button class="elements__like-button"><img src="./images/like_button.png"></button>
+                            <button class="elements__like-button" type="button"><img src="./images/like_button.svg" alt="кнопка лайк"></button>
                         </div>       
                     </li>
                     <li class="elements__item">
                         <img class="elements__image" src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Донбай">
                         <div class="elements__text">
                             <h3 class="elements__title">Донбай</h3>
-                            <button class="elements__like-button"><img src="./images/like_button.png"></button>
+                            <button class="elements__like-button" type="button"><img src="./images/like_button.svg" alt="кнопка лайк"></button>
                         </div>       
                     </li>
                     <li class="elements__item">
                         <img class="elements__image" src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаево-Черкеск">
                         <div class="elements__text">
                             <h3 class="elements__title">Карачаево-Черкеск</h3>
-                            <button class="elements__like-button"><img src="./images/like_button.png"></button>
+                            <button class="elements__like-button" type="button"><img src="./images/like_button.svg" alt="кнопка лайк"></button>
                         </div>                                     
                     </li>
                 </ul>
             </section>
         </main>
         <footer class="footer">           
-            <p class="footer__copyright">&copy 2020. Семен Семенов</p>
+            <p class="footer__copyright">&copy; 2020. Семен Семенов</p>
         </footer>
         <div class="popup">
             <div class="popup__content">
                 <button class="popup__close" type="button"></button>
                 <h3 class="popup__title">Редактировать профиль</h3>
-                <form class="popup__form">
-                    <input type="text" class="popup__input popup__input_type_name">
-                    <input type="text" class="popup__input popup__input_type_title">
+                <form class="popup__form" name="information">
+                    <input type="text" class="popup__input popup__input_type_name" name="firstmname">
+                    <input type="text" class="popup__input popup__input_type_title" name="profession">
                     <button type="submit" class="popup__submit">Сохранить</button>
                 </form>
             </div>

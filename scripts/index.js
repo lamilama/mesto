@@ -1,6 +1,4 @@
 const popup = document.querySelector('.popup');
-const popupContent = document.querySelector('.popup__content');
-const popupTitle = document.querySelector('.popup__title');
 const popupCloseButton = document.querySelector('.popup__close');
 const editButton = document.querySelector('.edit-button');
 const title = document.querySelector('.profile__title');
@@ -14,12 +12,12 @@ function showPopup() {
 }
 
 function closePopup() {
-    popup.classList.remove('popup_opened')
+    popup.classList.remove('popup_opened');
 }
 
 function popupClickHandler(event) {    
     if (event.target.classList.contains('popup')) {
-        closePopup()
+        closePopup();
     }
 }
 
@@ -27,11 +25,11 @@ editButton.addEventListener('click', showPopup);
 popupCloseButton.addEventListener('click', closePopup);
 popup.addEventListener('mousedown', popupClickHandler);
 
-
 function submitForm (event) {
-    event.preventDefault ();
+    event.preventDefault ();    
     title.textContent = nameField.value;
     subTitle.textContent = profession.value;
+    closePopup();
 }
 
 form.addEventListener('submit', submitForm);
