@@ -25,8 +25,15 @@ editButton.addEventListener('click', showPopup);
 popupCloseButton.addEventListener('click', closePopup);
 popup.addEventListener('mousedown', popupClickHandler);
 
+function openPopup() {
+    nameField.value = title.textContent
+    profession.value = subTitle.textContent 
+}
+
+editButton.addEventListener('click', openPopup); 
+
 function submitForm (event) {
-    event.preventDefault ();    
+    event.preventDefault ();
     title.textContent = nameField.value;
     subTitle.textContent = profession.value;
     closePopup();
