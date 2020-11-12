@@ -3,20 +3,21 @@
     height: 24px;
     background-color: #000000;
     background: transparent url('../../images/edit_button.svg') center no-repeat;
-    padding: 0;
-    align-self: flex-end;
+    padding: 0;    
     border: 1px solid white;
     outline: none;
+    margin-top: 33px;
+    transition-duration: .7s;
 }
 
 .edit-button:hover {
-    opacity: .6;
-    transition-duration: .7s;
+    opacity: .6;    
 }
 
 @media screen and (max-width: 767px) {
     .edit-button {
         width: 18px;
         height: 18px;
+        margin-top: 25px;
     }
 }
