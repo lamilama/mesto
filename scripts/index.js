@@ -26,8 +26,8 @@ popupCloseButton.addEventListener('click', closePopup);
 popup.addEventListener('mousedown', popupClickHandler);
 
 function openPopup() {
-    nameField.value = title.textContent
-    profession.value = subTitle.textContent 
+    nameField.value = title.textContent;
+    profession.value = subTitle.textContent;
 }
 
 editButton.addEventListener('click', openPopup); 
